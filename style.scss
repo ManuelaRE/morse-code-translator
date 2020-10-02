@@ -4,5 +4,39 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #534B62;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100vh;
+    width: 100%;
+}
+h1 {
+    color: #F0F0C9;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+main {
+margin: 20% 30%;
+text-align: center;
+
+    label {
+        color: #F0F0C9;
+        font-family: 'Press Start 2P', cursive;
+        font-size: large;
+    }
+
+    input {
+
+    }
+    button {
+        margin: 20px;
+    }
+}
+
+.translation {
+    color: yellowgreen;
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
 }
